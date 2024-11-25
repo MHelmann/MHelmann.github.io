@@ -1,0 +1,15 @@
+{
+  "hash": "dee1e07ef9d8e5540f3fdd8d8c854c0d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Tutorial session\"\nauthor: \"xxx\"\ndata: \"2024-11-25\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nx <- c(1,2,3,4,5,6,7,8,9,10,11,12)\n\nsample(x, 1 - 1, replace=T)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\nnumeric(0)\n```\n\n\n:::\n\n```{.r .cell-code}\nsample(x,  2, replace=T)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2 9\n```\n\n\n:::\n\n```{.r .cell-code}\nsample(x, 3, replace=T)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 11  8  8\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

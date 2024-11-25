@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Gitub - change to something else"
+  site-url: "https://github.com/MHelmann"
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org)."
+    left: "Maksim Helann, UofT"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: blog.qmd
+        text: My Blog
+      - href: research.qmd
+        text: Research
+      - href: files/type1_error_rate.pdf
+        text: Resume
+      - icon: github
+        href: https://github.com/MHelmann
+format:
+  html:
+    theme: Zephyr
+    css: styles.css
+
+editor: visual
+
+execute:
+  freeze: auto # re-render onl when source changes
